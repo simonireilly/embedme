@@ -1,9 +1,9 @@
 {
-  "name": "embedme",
-  "version": "0.0.0-development",
+  "name": "rembedme",
+  "version": "0.0.1",
   "description": "Utility for embedding code snippets into markdown documents",
-  "repository": "https://github.com/zakhenry/embedme",
-  "author": "Zak Henry",
+  "repository": "https://github.com/simonireilly/embedme",
+  "author": "Simon Reilly",
   "license": "MIT",
   "private": false,
   "bin": "./dist/embedme.js",
