@@ -410,7 +410,7 @@ export function embedme(sourceText: string, inputFilePath: string, options: Embe
     const [codeFence, leadingSpaces] = result;
     const start = sourceText.substring(previousEnd, result.index);
 
-    const extensionMatch = codeFence.match(/```(.*)/);
+    const extensionMatch = codeFence.match(/```(.*)\s/);
 
     const codeExtension = extensionMatch ? extensionMatch[1] : null;
     const splitFence = codeFence.split(lineEnding);
